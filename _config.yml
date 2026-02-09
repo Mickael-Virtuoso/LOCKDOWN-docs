@@ -1,0 +1,14 @@
+title: LOCKDOWN Documentation
+description: Multi-platform moderation bot system
+theme: jekyll-theme-cayman
+
+# Navegação
+nav:
+  - name: Introdução
+    url: /00-introduction/
+  - name: Arquitetura
+    url: /01-architecture/
+  - name: Backend
+    url: /04-backend/
+  - name: Frontend
+    url: /05-frontend/
