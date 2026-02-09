@@ -1,8 +1,39 @@
+# _config.yml (substituir o arquivo atual)
 title: LOCKDOWN Documentation
 description: Multi-platform moderation bot system
 theme: jekyll-theme-cayman
 
-# Navegação
+# GitHub Pages config
+url: "https://docs.hungrabots.com"
+baseurl: ""
+
+# Collections (opcional, mas útil)
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins (GitHub Pages permite esses)
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+
+# Navigation (seu original tá bom)
 nav:
   - name: Introdução
     url: /00-introduction/
